@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESI push</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<h1>ESI push</h1>
+<p>ESI push is a small personal command-line tool. Its single maintainer uses it
+to append rows to Google Sheets spreadsheets that he owns, from his own
+computer, as part of a personal research workflow.</p>
+
+<h2>What it does</h2>
+<ul>
+<li>Signs in once with Google OAuth and asks for one permission: the Google
+Sheets scope (<code>https://www.googleapis.com/auth/spreadsheets</code>).</li>
+<li>Reads the current state of a spreadsheet the user names, then appends new
+rows to it and reads them back to confirm the write.</li>
+<li>Runs only on the maintainer's own machine, started by hand. It has no
+server, no website backend and no other users.</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+<li>It does not access Gmail, Drive files, Calendar, contacts or any other
+Google service.</li>
+<li>It does not send spreadsheet data anywhere other than back to Google
+Sheets.</li>
+<li>It is not offered to the public and is not a commercial product.</li>
+</ul>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+<p class="meta">Maintained by <a href="https://github.com/ShashankKarpal">Shashank Karpal</a>.</p>
+</main>
+</body>
+</html>

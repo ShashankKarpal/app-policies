@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESI push privacy policy</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<h1>ESI push privacy policy</h1>
+<p class="meta">Effective 4 October 2026</p>
+
+<p>ESI push is a personal tool used by one person, its maintainer, to update
+Google Sheets spreadsheets he owns. This page explains what Google user data
+the tool touches and what happens to it.</p>
+
+<h2>Data the tool accesses</h2>
+<ul>
+<li>Through the Google Sheets API, the contents of the spreadsheets the user
+explicitly points the tool at. Nothing else in the Google account.</li>
+<li>An OAuth access token and refresh token issued by Google, which let the
+tool act on those spreadsheets.</li>
+</ul>
+
+<h2>How the data is used</h2>
+<ul>
+<li>Spreadsheet contents are read only to find where new rows belong and to
+confirm that a write succeeded. New rows are written back to the same
+spreadsheet.</li>
+<li>The OAuth tokens are stored in a single file on the user's own computer,
+readable only by that user's operating system account. They are never
+uploaded, logged or shared.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>No Google user data is sold, shared with, or transferred to any third party.
+There is no server, analytics, advertising or tracking of any kind. Data moves
+only between the user's computer and Google.</p>
+
+<h2>Limited Use</h2>
+<p>ESI push's use and transfer of information received from Google APIs adheres
+to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Retention and deletion</h2>
+<p>The tool keeps no copy of spreadsheet data. The token file stays on the
+user's computer until the user deletes it. Access can be revoked at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+which makes the stored tokens useless.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: open an issue at
+<a href="https://github.com/ShashankKarpal/app-policies/issues">github.com/ShashankKarpal/app-policies</a>.</p>
+
+<p><a href="index.html">Back to ESI push</a></p>
+</main>
+</body>
+</html>
