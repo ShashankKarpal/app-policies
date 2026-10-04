@@ -17,8 +17,9 @@ computer, as part of a personal research workflow.</p>
 <ul>
 <li>Signs in once with Google OAuth and asks for one permission: the Google
 Sheets scope (<code>https://www.googleapis.com/auth/spreadsheets</code>).</li>
-<li>Reads the current state of a spreadsheet the user names, then appends new
-rows to it and reads them back to confirm the write.</li>
+<li>Reads the current state of a spreadsheet the user names, appends new rows
+to it, occasionally corrects specific existing cells after checking their
+current value, and reads everything it wrote back to confirm the write.</li>
 <li>Runs only on the maintainer's own machine, started by hand. It has no
 server, no website backend and no other users.</li>
 </ul>
